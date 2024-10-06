@@ -37,35 +37,38 @@ Install dependencies
 
 If you're using npm:
 
-bash
-Copy code
+```bash
 npm install
+```
+
 Or if you're using yarn:
 
-bash
-Copy code
+```bash
 yarn install
+```
+
 Run the app
 
 To start the development server, run:
 
-bash
-Copy code
+```bash
 npm start
+```
 Or if you're using yarn:
 
-bash
-Copy code
+```bash
 yarn start
+```
+
 The app will be running at http://localhost:3000/ by default.
 
 Usage
 On the homepage, you’ll find the Buddy System section.
 Users can see their buddy’s fitness level and progress using the buddy cards.
 Press the "Chat with Buddy" button to open a chat window where you can message your buddy.
-Project Structure
-plaintext
-Copy code
+
+## Project Structure
+```
 src/
   ├── components/
   │   ├── BuddySystem.js         # Main Buddy System component
@@ -73,12 +76,14 @@ src/
   │   └── Roadmap.js             # Roadmap component for exercise plans
   ├── App.js                     # Main application component
   └── index.js                   # Entry point
-Screenshots
+```
+
+# Screenshots
 Buddy System Cards
 
 Chat Window
 
-Contributing
+# Contributing
 Contributions are welcome! To contribute:
 
 Fork the repository.
@@ -86,11 +91,3 @@ Create a new branch (git checkout -b feature-name).
 Make your changes and commit them (git commit -m 'Add some feature').
 Push to the branch (git push origin feature-name).
 Create a new Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-For any inquiries or support, feel free to contact:
-
-Your Name
-GitHub: @your-username
