@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import WelcomeSection from './components/WelcomeSection';
+import Questionnaire from './components/Questionnaire';
+import Roadmap from './components/Roadmap';
+import BuddySystem from './components/BuddySystem';
+import Footer from './components/Footer';
 
-function App() {
+const App = () => {
+  // State to track if questionnaire is completed
+  const [isQuestionnaireComplete, setIsQuestionnaireComplete] = useState(false);
+
+  // Function to handle completion of the questionnaire
+  const handleQuestionnaireCompletion = () => {
+    setIsQuestionnaireComplete(true);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <main>
+        {!isQuestionnaireComplete ? (
+          <>
+            {/* Display Welcome Section and Questionnaire until completed */}
+            <WelcomeSection />
+            <Questionnaire onComplete={handleQuestionnaireCompletion} />
+          </>
+        ) : (
+          <>
+            {/* Display Roadmap and BuddySystem after questionnaire completion */}
+            <Roadmap />
+            <BuddySystem />
+          </>
+        )}
+      </main>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
