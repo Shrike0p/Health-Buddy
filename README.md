@@ -86,11 +86,13 @@ src/
 ![image](https://github.com/user-attachments/assets/4c69e5bd-6ac9-40c0-be4f-1c1b84d651ae)
 
 
-# Contributing
+
+## Contributing
+
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Make your changes and commit them (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-name).
-Create a new Pull Request.
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature-name`).
+3.  Make your changes and commit them (`git commit -m 'Add some feature'`).
+4.  Push to the branch (`git push origin feature-name`).
+5.  Create a new Pull Request.
