@@ -79,9 +79,12 @@ src/
 ```
 
 # Screenshots
-Buddy System Cards
+![image](https://github.com/user-attachments/assets/f5e5b874-400f-4d24-8321-18c4eca477e1)
 
-Chat Window
+![image](https://github.com/user-attachments/assets/cc54c3fb-5443-4521-97c8-42978cd1e26f)
+
+![image](https://github.com/user-attachments/assets/4c69e5bd-6ac9-40c0-be4f-1c1b84d651ae)
+
 
 # Contributing
 Contributions are welcome! To contribute:
