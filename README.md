@@ -68,15 +68,22 @@ Users can see their buddy’s fitness level and progress using the buddy cards.
 Press the "Chat with Buddy" button to open a chat window where you can message your buddy.
 
 ## Project Structure
-```
+
+```plaintext
 src/
   ├── components/
-  │   ├── BuddySystem.js         # Main Buddy System component
-  │   ├── Header.js              # Header component
-  │   └── Roadmap.js             # Roadmap component for exercise plans
-  ├── App.js                     # Main application component
-  └── index.js                   # Entry point
-```
+  │   ├── Header.js              # Header component with navigation and search bar
+  │   ├── WelcomeSection.js       # Welcome section with a banner and introduction
+  │   ├── Questionnaire.js        # Questionnaire to gather user information
+  │   ├── Roadmap.js              # Interactive calendar to display user's fitness roadmap
+  │   ├── BuddySystem.js          # Buddy System feature with chat functionality
+  │   ├── ExerciseSection.js      # Section displaying detailed exercise routines
+  │   ├── NutritionSection.js     # Section displaying daily nutrition plans
+  │   └── Footer.js               # Footer component with links and contact information
+  ├── App.js                     # Main application component managing state and routing
+  ├── index.css                  # Main styles configuration with TailwindCSS
+  └── index.js                   # Application entry point
+
 
 # Screenshots
 ![image](https://github.com/user-attachments/assets/f5e5b874-400f-4d24-8321-18c4eca477e1)
