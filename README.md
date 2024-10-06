@@ -83,8 +83,7 @@ src/
   ├── App.js                     # Main application component managing state and routing
   ├── index.css                  # Main styles configuration with TailwindCSS
   └── index.js                   # Application entry point
-
-
+```
 # Screenshots
 ![image](https://github.com/user-attachments/assets/f5e5b874-400f-4d24-8321-18c4eca477e1)
 
